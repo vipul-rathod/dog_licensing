@@ -43,28 +43,28 @@
             </h5>
             <div class="mb-3">
                 <label for="siteStreetName" class="required" style="width:10%">Street Name</label>
-                <select name="siteStreetName" id="siteStreetName" style="width:35%">
-                    <option value=" ">Select any one option</option>
+                <select required="required" name="siteStreetName" id="siteStreetName" style="width:35%">
+                    <option value=""> </option>
                     <option value="svroad">Sardar Vallab Patel Road</option>
                     <option value="linkroad">Link Road</option>
                 </select>
                 <label for="mapBlockLot" style="width:10%; text-align:right">Map Block Lot</label>
                 <select name="mapBlockLot" id="mapBlockLot" style="width:40%;float:right">
-                    <option value=" ">Select any one option</option>
+                    <option value=""> </option>
                     <option value="svroad">Sardar Vallab Patel Road</option>
                     <option value="linkroad">Link Road</option>
                 </select>
                 <br><br>
                 <label for="siteStreetNumber" class="required" style="width:10%">Street Number</label>
                 <select required="required" name="siteStreetNumber" id="siteStreetNumber" style="width:35%">
-                    <option value=" ">Select any one option</option>
+                    <option value=""> </option>
                     <option value="1234">1234</option>
                     <option value="987">987</option>
                 </select>
 
                 <label for="zone" style="width:10%; text-align:right">Zone</label>
                 <select name="zone" id="zone" style="width:40%;float:right">
-                    <option value=" ">Select any one option</option>
+                    <option value=""> </option>
                     <option value="south">Sout Zone</option>
                     <option value="north">North Zone</option>
                 </select>
@@ -72,7 +72,7 @@
                 <br><br>
                 <label for="siteUnitNumber" style="width:10%">Unit Number </label>
                 <select name="siteUnitNumber" id="siteUnitNumber" style="width:35%">
-                    <option value=" ">Select any one option</option>
+                    <option value=""> </option>
                     <option value="101">101</option>
                     <option value="201">201</option>
                 </select>
